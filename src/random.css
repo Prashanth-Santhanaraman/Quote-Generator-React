@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outerbox{
+    background-color: rgb(220, 220, 220);
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter Tight", sans-serif;
+    border-radius: 10px;
+}
+.outerbox button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+.outerbox button:hover{
+    background-color: rgb(84, 84, 84);
+}
+.overallbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.quote{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+}
+.author{
+    margin-top: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
