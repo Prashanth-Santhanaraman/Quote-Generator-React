@@ -3,7 +3,7 @@ import './random.css'
 
 // const [quote,setQuote] = useState(handleGenerate())
 export default function Random(){
-    const [quote,setQuote] = useState('')
+    const [quote,setQuote] = useState(handleGenerate())
     const [author,setAuthor] = useState('')
 
     const handleGenerate = () => {
