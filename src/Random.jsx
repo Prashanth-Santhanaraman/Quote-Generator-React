@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './random.css'
 
-// const [quote,setQuote] = useState('')
+// const [quote,setQuote] = useState(handleGenerate())
 export default function Random(){
     const [quote,setQuote] = useState('')
     const [author,setAuthor] = useState('')
